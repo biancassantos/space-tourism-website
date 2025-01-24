@@ -1,8 +1,6 @@
-main{
+.main-home {
   display: flex;
   align-items: end;
-  height: 100vh;
-  padding: 6rem;
   background-image: url("imgs/home/background-home-desktop.jpg");
   background-position: center;
   background-size: cover;
@@ -30,6 +28,7 @@ main{
 .main-container .main-text p {
   max-width: 400px;
   font-family: var(--barlow);
+  font-size: 1.1rem;
   line-height: 180%;
 }
 

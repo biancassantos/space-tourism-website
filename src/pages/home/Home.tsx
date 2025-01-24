@@ -4,7 +4,7 @@ import "./style.css";
 
 function Home() {
   return (
-    <main>
+    <main className="main-home">
       <div className="main-container">
         <section className="main-text">
           <SpanHeading text="So, you want to travel to" />
@@ -15,7 +15,7 @@ function Home() {
         </section>
 
         <section>
-          <Link to="">
+          <Link to="/destination">
             <button>Explore</button>
           </Link>
         </section>

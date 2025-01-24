@@ -1,0 +1,8 @@
+.main-destination {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  background-image: url("imgs/destination/background-destination-desktop.jpg");
+  background-position: center;
+  background-size: cover;
+}
