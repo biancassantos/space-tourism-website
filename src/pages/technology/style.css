@@ -1,0 +1,54 @@
+/* --- TechnologyCard --- */
+.technology-card {
+  display: flex;
+  gap: 2rem;
+}
+
+.technology-card .technology-card-aside {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.technology-card .technology-card-aside article {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.portrait {
+  margin-right: -120px;
+}
+
+.landscape {
+  display: none;
+}
+
+/* --- TechnologyMenu --- */
+.technology-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  gap: 2rem;
+}
+
+.technology-menu a button {
+  background-color: transparent;
+  height: 65px;
+  width: 65px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  font-size: 1.5rem;
+  font-family: var(--bellefair);
+  cursor: pointer;
+  transition: .4s;
+}
+
+.technology-menu a button:hover {
+  border-color: #FFF;
+}
+
+.technology-menu a.active button {
+  background-color: #FFF;
+  color: var(--blue-900);
+}

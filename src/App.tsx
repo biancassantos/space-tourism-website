@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router";
 import MainLayout from "./layouts/MainLayout";
 import DestinationLayout from "./layouts/DestinationLayout";
 import CrewLayout from "./layouts/CrewLayout";
+import TechnologyLayout from "./layouts/TechnologyLayout";
 import Home from "./pages/home/Home";
 import Moon from "./pages/destinations/Moon";
 import Mars from "./pages/destinations/Mars";
@@ -11,6 +12,9 @@ import DouglasHurley from "./pages/crew/DouglasHurley";
 import MarkShuttleworth from "./pages/crew/MarkShuttleworth";
 import VictorGlover from "./pages/crew/VictorGlover";
 import AnoushehAnsari from "./pages/crew/AnoushehAnsari";
+import LaunchVehicle from "./pages/technology/LaunchVehicle";
+import Spaceport from "./pages/technology/Spaceport";
+import SpaceCapsule from "./pages/technology/SpaceCapsule";
 
 function App() {
   return (
@@ -31,6 +35,12 @@ function App() {
             <Route path="/crew/mark-shuttleworth" element={<MarkShuttleworth />} />
             <Route path="/crew/victor-glover" element={<VictorGlover />} />
             <Route path="/crew/anousheh-ansari" element={<AnoushehAnsari />} />
+          </Route>
+          <Route path="/technology" element={<TechnologyLayout />}>
+            <Route index element={<Navigate to="/technology/launch-vehicle" />} /> {/* Navigates automatically to the launch vehicle route */}
+            <Route path="/technology/launch-vehicle" element={<LaunchVehicle />} />
+            <Route path="/technology/spaceport" element={<Spaceport />} />
+            <Route path="/technology/space-capsule" element={<SpaceCapsule />} />
           </Route>
         </Route>
       </Routes>
