@@ -31,6 +31,9 @@ main {
 
 p {
   text-transform: none;
+  font-family: var(--barlow);
+  font-size: 1.1rem;
+  line-height: 180%;
 }
 
 strong {

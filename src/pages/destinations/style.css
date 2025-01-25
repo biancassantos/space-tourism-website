@@ -21,12 +21,6 @@
   font-size: 5.5rem;
 }
 
-.destination-card .destination-info article > p {
-  font-family: var(--barlow);
-  font-size: 1.1rem;
-  line-height: 180%;
-}
-
 .destination-card .destination-info article hr {
   border-color: rgba(255, 255, 255, 0.3);
 }

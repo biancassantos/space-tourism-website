@@ -69,3 +69,16 @@ header hr {
   opacity: 25%;
   font-weight: bold;
 }
+
+/* --- SmallTitle --- */
+.small-title {
+  font-family: var(--bellefair);
+  font-size: 2rem;
+  opacity: .5;
+}
+
+/* --- BigTitle --- */
+.big-title {
+  font-family: var(--bellefair);
+  font-size: 3.5rem;
+}

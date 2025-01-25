@@ -27,9 +27,6 @@
 
 .main-container .main-text p {
   max-width: 400px;
-  font-family: var(--barlow);
-  font-size: 1.1rem;
-  line-height: 180%;
 }
 
 .main-container button {
