@@ -1,4 +1,5 @@
 import { NavLink } from "react-router";
+import "../style.css";
 
 function TechnologyMenu() {
   return (

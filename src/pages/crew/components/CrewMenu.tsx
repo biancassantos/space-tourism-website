@@ -1,5 +1,5 @@
 import { NavLink } from "react-router";
-import "../../style.css";
+import "../style.css";
 
 function CrewMenu() {
   return (

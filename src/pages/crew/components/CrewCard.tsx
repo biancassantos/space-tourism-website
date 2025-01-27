@@ -1,6 +1,6 @@
 import SmallTitle from "../../../components/SmallTitle";
 import BigTitle from "../../../components/BigTitle";
-import CrewMenu from "./ui/CrewMenu";
+import CrewMenu from "./CrewMenu";
 import "../style.css";
 
 type CrewCardProps = {

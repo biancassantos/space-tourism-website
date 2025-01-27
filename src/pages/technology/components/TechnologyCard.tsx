@@ -1,6 +1,6 @@
 import SmallTitle from "../../../components/SmallTitle";
 import BigTitle from "../../../components/BigTitle";
-import TechnologyMenu from "./ui/TechnologyMenu";
+import TechnologyMenu from "./TechnologyMenu";
 import "../style.css";
 
 type TechnologyCardProps = {
