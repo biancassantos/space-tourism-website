@@ -1,5 +1,5 @@
-import SmallTitle from "../../../components/ui/SmallTitle";
-import BigTitle from "../../../components/ui/BigTitle";
+import SmallTitle from "../../../components/SmallTitle";
+import BigTitle from "../../../components/BigTitle";
 import TechnologyMenu from "./ui/TechnologyMenu";
 import "../style.css";
 

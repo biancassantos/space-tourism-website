@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import SpanHeading from "../../components/ui/SpanHeading";
+import SpanHeading from "../../components/SpanHeading";
 import "./style.css";
 
 function Home() {

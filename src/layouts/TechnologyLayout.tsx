@@ -1,4 +1,4 @@
-import SpanHeading from "../components/ui/SpanHeading";
+import SpanHeading from "../components/SpanHeading";
 import { Outlet } from "react-router";
 import "./style.css";
 

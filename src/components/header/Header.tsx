@@ -1,6 +1,7 @@
 import { NavLink } from "react-router";
-import HeaderMenu from "./ui/HeaderMenu";
-import "./style.css";
+import HeaderMenu from "./HeaderMenu";
+import MobileMenuButton from "./MobileMenuButton";
+import "../style.css";
 
 function Header() {
   return (
@@ -9,6 +10,7 @@ function Header() {
         <img src="imgs/shared/logo.svg" alt="Logo" />
       </NavLink>
       <hr />
+      <MobileMenuButton />
       <HeaderMenu />
     </header>
   )

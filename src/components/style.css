@@ -1,5 +1,4 @@
 /* ---- SHARED COMPONENTS STYLES ---- */
-
 /* --- Header --- */
 header {
   position: absolute;
@@ -16,18 +15,52 @@ header a img {
 }
 
 header hr {
-  width: 44%;
+  width: 35%;
   margin-right: -120px;
   border-color: rgba(255, 255, 255, 0.3);
   z-index: 100;
 }
 
+header .mobile-menu-btn {
+  display: none;
+  margin-right: 2rem;
+  height: 35px;
+  width: 35px;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+header .mobile-menu-btn img {
+  width: 100%;
+}
+
 /* --- HeaderMenu --- */
 .header-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 2rem;
   background-color: rgba(255, 255, 255, 0.07);
   backdrop-filter: blur(6px);
-  padding: 0 2rem 0 6.5rem;
+  padding: 0 2rem ;
   height: auto;
+  width: 60vw;
+  transition: .4s;
+}
+
+.header-menu .close-menu-btn {
+  display: none;
+  background-color: transparent;
+  height: 30px;
+  width: 30px;
+  border: 0;
+  margin: 0 2rem 2rem 0;
+  cursor: pointer;
+}
+
+.header-menu .close-menu-btn img {
+  width: 100%;
 }
 
 .header-menu ul {
@@ -47,6 +80,7 @@ header hr {
 .header-menu ul li a {
   text-decoration: none;
   transition: .4s;
+  letter-spacing: 2px;
 }
 
 .header-menu ul li a:hover {
@@ -81,4 +115,95 @@ header hr {
 .big-title {
   font-family: var(--bellefair);
   font-size: 3.5rem;
+}
+
+
+/* --- MEDIA QUERIES --- */
+/* --- Smaller Desktop --- */
+@media screen and (max-width: 1155px) {
+  /* Header */
+  header hr {
+    width: 24%;
+  }
+
+  /* HeaderMenu */
+  .header-menu {
+    width: 65vw;
+  }
+}
+
+/* --- Tablet --- */
+@media screen and (max-width: 960px) {
+  /* Header */
+  header hr {
+    display: none;
+  }
+
+  /* HeaderMenu */
+  .header-menu {
+    width: 100%;
+  }
+
+  .header-menu ul li {
+    padding: 25px 10px;
+  }
+}
+
+/* --- Mobile --- */
+@media screen and (max-width: 700px) {
+  /* Header */
+  header .mobile-menu-btn {
+    display: block;
+  }
+
+  /* HeaderMenu */
+  .header-menu {
+    position: absolute;
+    top: 0;
+    right: -500px;
+    opacity: 0;
+    pointer-events: none;
+    backdrop-filter: blur(30px);
+    padding: 2rem 1.5rem 2rem 2rem;
+    height: 100vh;
+    width: 60vw;
+    z-index: 200;
+  }
+
+  .header-menu.open {
+    right: 0;
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .header-menu .close-menu-btn {
+    display: block;
+  }
+
+  .header-menu ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .header-menu ul li {
+    border-bottom: 0;
+    padding: 15px 0;
+    border-right: 3px solid transparent;
+  }
+
+  .header-menu ul li a {
+    display: block;
+    padding: 8px 10px;
+    font-size: 1.2rem;
+  }
+  
+  .header-menu ul li a:hover {
+    border-bottom: 0;
+    border-right: 3px solid rgba(255, 255, 255, 0.5);
+  }
+  
+  .header-menu ul li a.active {
+    border-bottom: 0;
+    border-right: 3px solid #FFF;
+  }
 }
