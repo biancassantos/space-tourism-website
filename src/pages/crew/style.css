@@ -45,3 +45,45 @@
 .crew-menu a.active button {
   background-color: #FFF;
 }
+
+
+/* --- MEDIA QUERIES --- */
+/* --- Tablet --- */
+@media screen and (max-width: 960px) {
+  .crew-card {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+  }
+
+  .crew-card div {
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .crew-card div article {
+    align-items: center;
+    text-align: center;
+  }
+
+  .crew-card div article p {
+    max-width: 80%;
+  }
+}
+
+/* --- Mobile --- */
+@media screen and (max-width: 700px) {
+  .crew-card div {
+    align-items: center;
+    gap: 6rem;
+  }
+
+  .crew-card img {
+    width: 100%;
+  }
+
+  .crew-card div article p {
+    max-width: 100%;
+  }
+}

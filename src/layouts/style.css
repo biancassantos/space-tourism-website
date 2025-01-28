@@ -25,10 +25,40 @@
   background-size: cover;
 }
 
+
 /* --- MEDIA QUERIES --- */
 /* --- Mobile --- */
 @media screen and (max-width: 700px) {
   .main-destination {
+    background-image: url("imgs/destination/background-destination-tablet.jpg");
+  }
+
+  .main-crew {
+    background-image: url("imgs/crew/background-crew-tablet.jpg");
+  }
+
+  .main-technology {
+    background-image: url("imgs/technology/background-technology-tablet.jpg");
+  }
+}
+
+/* --- Mobile --- */
+@media screen and (max-width: 700px) {
+  .main-destination,
+  .main-crew,
+  .main-technology {
     align-items: center;
+  }
+
+  .main-destination {
+    background-image: url("imgs/destination/background-destination-mobile.jpg");
+  }
+
+  .main-crew {
+    background-image: url("imgs/crew/background-crew-mobile.jpg");
+  }
+
+  .main-technology {
+    background-image: url("imgs/technology/background-technology-mobile.jpg");
   }
 }
