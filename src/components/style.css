@@ -147,6 +147,11 @@ header .mobile-menu-btn img {
   .header-menu ul li {
     padding: 25px 10px;
   }
+
+  /* SpanHeading */
+  .span-heading {
+    padding-top: 1.5rem;
+  }
 }
 
 /* --- Mobile --- */

@@ -24,3 +24,11 @@
   background-position: top;
   background-size: cover;
 }
+
+/* --- MEDIA QUERIES --- */
+/* --- Mobile --- */
+@media screen and (max-width: 700px) {
+  .main-destination {
+    align-items: center;
+  }
+}

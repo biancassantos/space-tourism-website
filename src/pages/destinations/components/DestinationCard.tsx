@@ -1,6 +1,6 @@
 import DestinationMenu from "./DestinationMenu";
 import DistanceInfo from "./DistanceInfo";
-import "./style.css";
+import "../style.css";
 
 type DestinationCardProps = {
   name: string
