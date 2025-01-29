@@ -5,8 +5,10 @@ import "./style.css";
 function DestinationLayout() {
   return (
     <main className="main-destination">
-      <SpanHeading number="01" text="Pick your destination" />
-      <Outlet />
+      <div className="destination-container max">
+        <SpanHeading number="01" text="Pick your destination" />
+        <Outlet />
+      </div> 
     </main>
   )
 }

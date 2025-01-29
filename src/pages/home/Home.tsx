@@ -5,7 +5,7 @@ import "./style.css";
 function Home() {
   return (
     <main className="main-home">
-      <div className="main-container">
+      <div className="home-container max">
         <section className="main-text">
           <SpanHeading text="So, you want to travel to" />
           <h1>Space</h1>

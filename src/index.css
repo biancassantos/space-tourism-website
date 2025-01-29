@@ -41,6 +41,12 @@ strong {
   font-weight: bold;
 }
 
+/* --- Max width for the components --- */
+.max {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
 
 /* --- MEDIA QUERIES --- */
 /* --- Mobile --- */

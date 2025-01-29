@@ -5,13 +5,15 @@ import "../style.css";
 
 function Header() {
   return (
-    <header>
-      <NavLink to="/">
-        <img src="imgs/shared/logo.svg" alt="Logo" />
-      </NavLink>
-      <hr />
-      <MobileMenuButton />
-      <HeaderMenu />
+    <header className="max">
+      <div className="header-container max">
+        <NavLink to="/">
+          <img src="imgs/shared/logo.svg" alt="Logo" />
+        </NavLink>
+        <hr />
+        <MobileMenuButton />
+        <HeaderMenu />
+      </div>
     </header>
   )
 }

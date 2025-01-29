@@ -1,28 +1,40 @@
+/* --- DestinationLayout --- */
 .main-destination {
-  display: flex;
-  flex-direction: column;
-  gap: 6rem;
   background-image: url("imgs/destination/background-destination-desktop.jpg");
   background-position: center;
   background-size: cover;
 }
 
-.main-crew {
+.main-destination .destination-container {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 6rem;
+}
+
+/* --- CrewLayout --- */
+.main-crew {
   background-image: url("imgs/crew/background-crew-desktop.jpg");
   background-position: center;
   background-size: cover;
 }
 
-.main-technology {
+.main-crew .crew-container {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 2rem; 
+}
+
+/* --- TechnologyLayout --- */
+.main-technology {
   background-image: url("imgs/technology/background-technology-desktop.jpg");
   background-position: top;
   background-size: cover;
+}
+
+.main-technology .technology-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
 }
 
 

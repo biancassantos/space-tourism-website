@@ -6,7 +6,7 @@
   background-size: cover;
 }
 
-.main-container {
+.home-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,22 +14,22 @@
   width: 100%;
 }
 
-.main-container .main-text {
+.home-container .main-text {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-.main-container .main-text h1 {
+.home-container .main-text h1 {
   font-family: var(--bellefair);
   font-size: 8rem;
 }
 
-.main-container .main-text p {
+.home-container .main-text p {
   max-width: 400px;
 }
 
-.main-container button {
+.home-container button {
   height: 210px;
   width: 210px;
   color: #000;
@@ -41,7 +41,7 @@
   transition: .4s;
 }
 
-.main-container button:hover {
+.home-container button:hover {
   box-shadow: 0px 0px 0px 60px rgba(255, 255, 255, .1);
   color: rgba(0, 0, 0, 0.5);
 }
@@ -54,17 +54,17 @@
     background-image: url("imgs/home/background-home-tablet.jpg");
   }
 
-  .main-container {
+  .home-container {
     flex-direction: column;
     gap: 4rem;
   }
 
-  .main-container .main-text {
+  .home-container .main-text {
     align-items: center;
     text-align: center;
   }
 
-  .main-container .main-text p {
+  .home-container .main-text p {
     max-width: 550px;
   }
 }
@@ -76,16 +76,16 @@
     background-image: url("imgs/home/background-home-mobile.jpg");
   }
 
-  .main-container {
+  .home-container {
     gap: 6rem;
     padding-top: 1rem;
   }
 
-  .main-container .main-text h1 {
+  .home-container .main-text h1 {
     font-size: 6rem;
   }
 
-  .main-container button {
+  .home-container button {
     height: 180px;
     width: 180px;
   }

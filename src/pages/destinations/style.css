@@ -113,6 +113,10 @@
     max-width: 100%;
   }
 
+  .destination-card .destination-info article h2 {
+    font-size: 5rem;
+  }
+
   .destination-card .destination-info article hr {
     display: none;
   }
