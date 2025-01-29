@@ -1,6 +1,6 @@
 /* ---- SHARED COMPONENTS STYLES ---- */
 /* --- Header --- */
- header .header-container {
+header .header-container {
   position: absolute;
   display: flex;
   justify-content: space-between;
