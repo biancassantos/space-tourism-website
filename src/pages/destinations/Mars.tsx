@@ -7,7 +7,7 @@ function Mars() {
   return (
     <DestinationCard 
     name={mars.name}
-    image={mars.images["png"]}
+    image={mars.image}
     description={mars.description}
     distance={mars.distance}
     travel={mars.travel}

@@ -7,7 +7,7 @@ function Europa() {
   return (
     <DestinationCard 
     name={europa.name}
-    image={europa.images["png"]}
+    image={europa.image}
     description={europa.description}
     distance={europa.distance}
     travel={europa.travel}

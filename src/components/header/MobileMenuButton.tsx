@@ -2,7 +2,7 @@ import useMenuContext from "../../hooks/useMenuContext";
 
 function MobileMenuButton() {
   const menuContext = useMenuContext();
-  if (!menuContext) return null;
+  if (!menuContext) return null; // the menu context could be null, so it needs handling
   const { setIsOpen } = menuContext;
 
   return (

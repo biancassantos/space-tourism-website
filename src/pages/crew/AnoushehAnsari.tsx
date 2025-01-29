@@ -8,7 +8,7 @@ function AnoushehAnsari() {
   return (
     <CrewCard 
     name={member.name}
-    image={member.images["png"]}
+    image={member.image}
     role={member.role}
     bio={member.bio}
     />

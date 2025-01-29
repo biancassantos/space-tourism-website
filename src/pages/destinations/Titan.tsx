@@ -7,7 +7,7 @@ function Titan() {
   return (
     <DestinationCard 
     name={titan.name}
-    image={titan.images["png"]}
+    image={titan.image}
     description={titan.description}
     distance={titan.distance}
     travel={titan.travel}

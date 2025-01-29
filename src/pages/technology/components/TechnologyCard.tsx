@@ -1,6 +1,7 @@
 import SmallTitle from "../../../components/SmallTitle";
 import BigTitle from "../../../components/BigTitle";
 import TechnologyMenu from "./TechnologyMenu";
+import TechnologyImage from "./TechnologyImage";
 import "../style.css";
 
 type TechnologyCardProps = {
@@ -21,18 +22,11 @@ function TechnologyCard({ name, description, portraitImg, landscapeImg }: Techno
           <p>{description}</p>
         </article>
       </section>
-      <div className="technology-img">
-        <img 
-        src={portraitImg} 
-        alt={`Image of the ${name}`}
-        className="portrait"
-        />
-        <img 
-        src={landscapeImg} 
-        alt={`Image of the ${name}`} 
-        className="landscape"
-        />
-      </div>
+      <TechnologyImage 
+      name={name}
+      portraitImg={portraitImg}
+      landscapeImg={landscapeImg}
+      />
     </section>
   )
 }

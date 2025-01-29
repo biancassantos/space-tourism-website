@@ -7,7 +7,7 @@ function Moon() {
   return (
     <DestinationCard 
     name={moon.name}
-    image={moon.images["png"]}
+    image={moon.image}
     description={moon.description}
     distance={moon.distance}
     travel={moon.travel}

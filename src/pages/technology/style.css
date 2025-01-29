@@ -108,6 +108,7 @@
 
 /* --- Mobile --- */
 @media screen and (max-width: 700px) {
+  /* TechnologyCard */
   .technology-card .technology-card-aside article p {
     max-width: 100%;
   }
