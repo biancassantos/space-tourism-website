@@ -21,16 +21,18 @@ function TechnologyCard({ name, description, portraitImg, landscapeImg }: Techno
           <p>{description}</p>
         </article>
       </section>
-      <img 
-      src={portraitImg} 
-      alt={`Image of the ${name}`}
-      className="portrait"
-      />
-      <img 
-      src={landscapeImg} 
-      alt={`Image of the ${name}`} 
-      className="landscape"
-      />
+      <div className="technology-img">
+        <img 
+        src={portraitImg} 
+        alt={`Image of the ${name}`}
+        className="portrait"
+        />
+        <img 
+        src={landscapeImg} 
+        alt={`Image of the ${name}`} 
+        className="landscape"
+        />
+      </div>
     </section>
   )
 }
