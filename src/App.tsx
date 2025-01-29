@@ -21,26 +21,26 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route element={<MainLayout />}>
-          <Route index path="/" element={<Home />} />
-          <Route path="/destination" element={<DestinationLayout />}>
-            <Route index element={<Navigate to="/destination/moon" />} /> {/* Navigates automatically to the moon route */}
-            <Route path="/destination/moon" element={<Moon />} />
-            <Route path="/destination/mars" element={<Mars />} />
-            <Route path="/destination/europa" element={<Europa />} />
-            <Route path="/destination/titan" element={<Titan />} />
+          <Route index path="/space-tourism-website" element={<Home />} />
+          <Route path="/space-tourism-website/destination" element={<DestinationLayout />}>
+            <Route index element={<Navigate to="/space-tourism-website/destination/moon" />} /> {/* Navigates automatically to the moon route */}
+            <Route path="/space-tourism-website/destination/moon" element={<Moon />} />
+            <Route path="/space-tourism-website/destination/mars" element={<Mars />} />
+            <Route path="/space-tourism-website/destination/europa" element={<Europa />} />
+            <Route path="/space-tourism-website/destination/titan" element={<Titan />} />
           </Route>
-          <Route path="/crew" element={<CrewLayout />}>
-            <Route index element={<Navigate to="/crew/douglas-hurley" />} /> {/* Navigates automatically to the Douglas Hurley route */}
-            <Route path="/crew/douglas-hurley" element={<DouglasHurley />} />
-            <Route path="/crew/mark-shuttleworth" element={<MarkShuttleworth />} />
-            <Route path="/crew/victor-glover" element={<VictorGlover />} />
-            <Route path="/crew/anousheh-ansari" element={<AnoushehAnsari />} />
+          <Route path="/space-tourism-website/crew" element={<CrewLayout />}>
+            <Route index element={<Navigate to="/space-tourism-website/crew/douglas-hurley" />} /> {/* Navigates automatically to the Douglas Hurley route */}
+            <Route path="/space-tourism-website/crew/douglas-hurley" element={<DouglasHurley />} />
+            <Route path="/space-tourism-website/crew/mark-shuttleworth" element={<MarkShuttleworth />} />
+            <Route path="/space-tourism-website/crew/victor-glover" element={<VictorGlover />} />
+            <Route path="/space-tourism-website/crew/anousheh-ansari" element={<AnoushehAnsari />} />
           </Route>
-          <Route path="/technology" element={<TechnologyLayout />}>
-            <Route index element={<Navigate to="/technology/launch-vehicle" />} /> {/* Navigates automatically to the launch vehicle route */}
-            <Route path="/technology/launch-vehicle" element={<LaunchVehicle />} />
-            <Route path="/technology/spaceport" element={<Spaceport />} />
-            <Route path="/technology/space-capsule" element={<SpaceCapsule />} />
+          <Route path="/space-tourism-website/technology" element={<TechnologyLayout />}>
+            <Route index element={<Navigate to="/space-tourism-website/technology/launch-vehicle" />} /> {/* Navigates automatically to the launch vehicle route */}
+            <Route path="/space-tourism-website/technology/launch-vehicle" element={<LaunchVehicle />} />
+            <Route path="/space-tourism-website/technology/spaceport" element={<Spaceport />} />
+            <Route path="/space-tourism-website/technology/space-capsule" element={<SpaceCapsule />} />
           </Route>
         </Route>
       </Routes>

@@ -14,28 +14,28 @@ function HeaderMenu() {
       <ul>
         <li>
           <HeaderMenuLink 
-          url="/"
+          url="/space-tourism-website"
           number="00"
           text="Home"
           />
         </li>
         <li>
           <HeaderMenuLink 
-          url="/destination"
+          url="/space-tourism-website/destination"
           number="01"
           text="Destination"
           />
         </li>
         <li>
           <HeaderMenuLink 
-          url="/crew"
+          url="/space-tourism-website/crew"
           number="02"
           text="Crew"
           />
         </li>
         <li>
           <HeaderMenuLink 
-          url="/technology"
+          url="/space-tourism-website/technology"
           number="03"
           text="Technology"
           />

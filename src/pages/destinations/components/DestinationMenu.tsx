@@ -6,16 +6,16 @@ function DestinationMenu() {
     <nav className="destination-menu">
       <ul>
         <li>
-          <NavLink to="/destination/moon">Moon</NavLink>
+          <NavLink to="/space-tourism-website/destination/moon">Moon</NavLink>
         </li>
         <li>
-          <NavLink to="/destination/mars">Mars</NavLink>
+          <NavLink to="/space-tourism-website/destination/mars">Mars</NavLink>
         </li>
         <li>
-          <NavLink to="/destination/europa">Europa</NavLink>
+          <NavLink to="/space-tourism-website/destination/europa">Europa</NavLink>
         </li>
         <li>
-          <NavLink to="/destination/titan">Titan</NavLink>
+          <NavLink to="/space-tourism-website/destination/titan">Titan</NavLink>
         </li>
       </ul>
     </nav>

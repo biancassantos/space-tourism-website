@@ -7,7 +7,7 @@ function Header() {
   return (
     <header className="max">
       <div className="header-container max">
-        <NavLink to="/">
+        <NavLink to="/space-tourism-website">
           <img src="imgs/shared/logo.svg" alt="Logo" />
         </NavLink>
         <hr />

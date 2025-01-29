@@ -15,7 +15,7 @@ function Home() {
         </section>
 
         <section>
-          <Link to="/destination">
+          <Link to="/space-tourism-website/destination">
             <button>Explore</button>
           </Link>
         </section>
