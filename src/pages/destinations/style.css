@@ -39,6 +39,7 @@
  
 .distance-info p {
   font-family: var(--bellefair);
+  color: #FFF;
   font-size: 1.5rem;
   text-transform: uppercase;
 }
