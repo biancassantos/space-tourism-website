@@ -1,7 +1,7 @@
 .main-home {
   display: flex;
   align-items: end;
-  background-image: url("imgs/home/background-home-desktop.jpg");
+  background-image: url("../../assets/imgs/backgrounds/background-home-desktop.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -51,7 +51,7 @@
 /* --- Tablet --- */
 @media screen and (max-width: 960px) {
   .main-home {
-    background-image: url("imgs/home/background-home-tablet.jpg");
+    background-image: url("../../assets/imgs/backgrounds/background-home-tablet.jpg");
   }
 
   .home-container {
@@ -73,7 +73,7 @@
 @media screen and (max-width: 700px) {
   .main-home {
     align-items: start;
-    background-image: url("imgs/home/background-home-mobile.jpg");
+    background-image: url("../../assets/imgs/backgrounds/background-home-mobile.jpg");
   }
 
   .home-container {
