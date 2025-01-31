@@ -8,7 +8,6 @@ header .header-container {
   gap: 2rem;
   width: 100vw;
   padding: 2rem 0rem;
-  overflow-x: hidden;
 }
 
 header .header-container a img {
