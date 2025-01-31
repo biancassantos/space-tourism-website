@@ -16,18 +16,19 @@
   gap: 1rem;
 }
 
-.technology-card .technology-img {
+/* --- TechnologyImage --- */
+.technology-img {
   display: flex;
   justify-content: center;
   height: fit-content;
   margin-right: -120px;
 }
 
-.technology-card .technology-img .portrait {
+.technology-img .portrait {
   height: 100%;
 }
 
-.technology-card .technology-img .landscape {
+.technology-img .landscape {
   display: none;
 }
 
@@ -84,16 +85,17 @@
     max-width: 80%;
   }
 
-  .technology-card .technology-img {
+  /* TechnologyImage */
+  .technology-img {
     width: 100vw;
     margin-left: -2rem;
   }
 
-  .technology-card .technology-img .portrait {
+  .technology-img .portrait {
     display: none;
   }
 
-  .technology-card .technology-img .landscape {
+  .technology-img .landscape {
     display: block;
     height: 100%;
     width: 100%;
@@ -113,11 +115,13 @@
     max-width: 100%;
   }
 
-  .technology-card .technology-img {
-    height: 400px;
+  /* TechnologyImage */
+  .technology-img {
+    height: 310px;
   }
   
-  .technology-card .technology-img .landscape {
+  .technology-img .landscape {
+    height: 100%;
     width: auto;
   }
 
