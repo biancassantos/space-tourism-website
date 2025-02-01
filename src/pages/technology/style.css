@@ -79,6 +79,7 @@
   .technology-card .technology-card-aside article {
     align-items: center;
     text-align: center;
+    width: 100%;
   }
   
   .technology-card .technology-card-aside article p {
