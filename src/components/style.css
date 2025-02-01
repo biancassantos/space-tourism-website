@@ -158,6 +158,10 @@ header .header-container .mobile-menu-btn img {
 /* --- Mobile --- */
 @media screen and (max-width: 700px) {
   /* Header */
+  header .header-container {
+    overflow-x: clip;
+  }
+
   header .header-container .mobile-menu-btn {
     display: block;
   }
