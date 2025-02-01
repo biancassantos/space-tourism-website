@@ -3,7 +3,7 @@
 ## 📄 Sobre
 Esse projeto é a resolução de um desafio do Frontend Mentor de um site para uma empresa de turismo espacial.
 
-## Objetivos
+### Objetivos
 - Praticar pela primeira vez meus conhecimentos em TypeScript.
 
 ### Links:
