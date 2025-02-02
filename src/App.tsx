@@ -15,6 +15,7 @@ import AnoushehAnsari from "./pages/crew/AnoushehAnsari";
 import LaunchVehicle from "./pages/technology/LaunchVehicle";
 import Spaceport from "./pages/technology/Spaceport";
 import SpaceCapsule from "./pages/technology/SpaceCapsule";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
             <Route path="/space-tourism-website/technology/spaceport" element={<Spaceport />} />
             <Route path="/space-tourism-website/technology/space-capsule" element={<SpaceCapsule />} />
           </Route>
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </BrowserRouter>
