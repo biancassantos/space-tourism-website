@@ -1,50 +1,28 @@
-# React + TypeScript + Vite
+# Space Tourism Website - Frontend Mentor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📄 Sobre
+Esse projeto é a resolução de um desafio do Frontend Mentor de um site para uma empresa de turismo espacial.
 
-Currently, two official plugins are available:
+### Objetivos
+- Praticar pela primeira vez meus conhecimentos em TypeScript.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Links:
+- <a href="https://biancassantos.github.io/space-tourism-website/" target="_blank">Página do projeto</a>
+- [Space tourism website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3)
 
-## Expanding the ESLint configuration
+</br>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![Design do projeto](https://raw.githubusercontent.com/biancassantos/space-tourism-website/refs/heads/main/src/assets/project-preview.png)
 
-- Configure the top-level `parserOptions` property like this:
+## 🔎 Especificações
+### Tecnologias:
+- HTML
+- CSS
+- TypeScript
+- React (React Router, Context API)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+</br>
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 📁 Resources
+### Imagens:
+- [Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3)
