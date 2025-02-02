@@ -14,7 +14,7 @@ function HeaderMenu() {
       <ul>
         <li>
           <HeaderMenuLink 
-          url="/space-tourism-website"
+          url="/space-tourism-website/"
           number="00"
           text="Home"
           />

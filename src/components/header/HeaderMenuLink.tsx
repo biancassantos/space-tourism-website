@@ -13,7 +13,7 @@ function HeaderMenuLink({ url, number, text }: HeaderMenuLinkProps) {
   const { setIsOpen } = menuContext;
 
   /* checks if we are in the homepage */
-  const isHome = url === "/space-tourism-website";
+  const isHome = url === "/space-tourism-website/";
 
   return (
     <NavLink

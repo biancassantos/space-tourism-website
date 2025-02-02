@@ -22,7 +22,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route element={<MainLayout />}>
-          <Route index path="/space-tourism-website" element={<Home />} />
+          <Route index path="/space-tourism-website/" element={<Home />} />
           <Route path="/space-tourism-website/destination" element={<DestinationLayout />}>
             <Route index element={<Navigate to="/space-tourism-website/destination/moon" />} /> {/* Navigates automatically to the moon route */}
             <Route path="/space-tourism-website/destination/moon" element={<Moon />} />
