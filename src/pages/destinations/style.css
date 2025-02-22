@@ -6,26 +6,26 @@
   gap: 2rem;
 }
 
-.destination-card .destination-info {
+.destination-info {
   max-width: 430px;
 }
 
-.destination-card .destination-info article {
+.destination-info article {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
-.destination-card .destination-info article h2 {
+.destination-info article h2 {
   font-family: var(--bellefair);
   font-size: 5.5rem;
 }
 
-.destination-card .destination-info article hr {
+.destination-info article hr {
   border-color: rgba(255, 255, 255, 0.3);
 }
 
-.destination-card .destination-info article .distance-info-container {
+.destination-info article .distance-info-container {
   display: flex;
   gap: 5rem;
 }
@@ -74,7 +74,6 @@
 /* --- MEDIA QUERIES --- */
 /* --- Tablet --- */
 @media screen and (max-width: 960px) {
-  /* DestinationCard */
   .destination-card {
     flex-direction: column;
     justify-content: space-between;
@@ -85,23 +84,22 @@
     width: 50%;
   }
 
-  .destination-card .destination-info {
+  .destination-info {
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 80%;
   }
 
-  .destination-card .destination-info article {
+  .destination-info article {
     align-items: center;
     text-align: center;
   }
 
-  .destination-card .destination-info article hr {
+  .destination-info article hr {
     width: 100%;
   }
 
-  /* DestinationMenu */
   .destination-menu ul {
     gap: 2rem;
   }
@@ -109,20 +107,19 @@
 
 /* --- Mobile --- */
 @media screen and (max-width: 700px) {
-  /* DestinationCard */
-  .destination-card .destination-info {
+  .destination-info {
     max-width: 100%;
   }
 
-  .destination-card .destination-info article h2 {
+  .destination-info article h2 {
     font-size: 5rem;
   }
 
-  .destination-card .destination-info article hr {
+  .destination-info article hr {
     display: none;
   }
 
-  .destination-card .destination-info article .distance-info-container {
+  .destination-info article .distance-info-container {
     flex-direction: column;
     gap: 1.5rem;
   }

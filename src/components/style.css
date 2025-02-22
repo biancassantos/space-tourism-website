@@ -1,6 +1,6 @@
 /* ---- SHARED COMPONENTS STYLES ---- */
 /* --- Header --- */
-header .header-container {
+.header-container {
   position: absolute;
   display: flex;
   justify-content: space-between;
@@ -10,18 +10,18 @@ header .header-container {
   padding: 2rem 0rem;
 }
 
-header .header-container a img {
+.header-container a img {
   margin-left: 2rem;
 }
 
-header .header-container hr {
+.header-container hr {
   width: 35%;
   margin-right: -120px;
   border-color: rgba(255, 255, 255, 0.3);
   z-index: 100;
 }
 
-header .header-container .mobile-menu-btn {
+.mobile-menu-btn {
   display: none;
   margin-right: 2rem;
   height: 35px;
@@ -31,7 +31,7 @@ header .header-container .mobile-menu-btn {
   cursor: pointer;
 }
 
-header .header-container .mobile-menu-btn img {
+.mobile-menu-btn img {
   width: 100%;
 }
 
@@ -49,7 +49,7 @@ header .header-container .mobile-menu-btn img {
   transition: .4s;
 }
 
-.header-menu .close-menu-btn {
+.close-menu-btn {
   display: none;
   background-color: transparent;
   height: 30px;
@@ -59,7 +59,7 @@ header .header-container .mobile-menu-btn img {
   cursor: pointer;
 }
 
-.header-menu .close-menu-btn img {
+.close-menu-btn img {
   width: 100%;
 }
 
@@ -122,12 +122,10 @@ header .header-container .mobile-menu-btn img {
 /* --- MEDIA QUERIES --- */
 /* --- Smaller Desktop --- */
 @media screen and (max-width: 1155px) {
-  /* Header */
-  header .header-container hr {
+  .header-container hr {
     width: 24%;
   }
 
-  /* HeaderMenu */
   .header-menu {
     width: 65vw;
   }
@@ -135,12 +133,10 @@ header .header-container .mobile-menu-btn img {
 
 /* --- Tablet --- */
 @media screen and (max-width: 960px) {
-  /* Header */
-  header .header-container hr {
+  .header-container hr {
     display: none;
   }
 
-  /* HeaderMenu */
   .header-menu {
     width: 100%;
   }
@@ -149,7 +145,6 @@ header .header-container .mobile-menu-btn img {
     padding: 25px 10px;
   }
 
-  /* SpanHeading */
   .span-heading {
     padding-top: 1.5rem;
   }
@@ -157,16 +152,14 @@ header .header-container .mobile-menu-btn img {
 
 /* --- Mobile --- */
 @media screen and (max-width: 700px) {
-  /* Header */
-  header .header-container {
+  .header-container {
     overflow-x: clip;
   }
 
-  header .header-container .mobile-menu-btn {
+  .mobile-menu-btn {
     display: block;
   }
 
-  /* HeaderMenu */
   .header-menu {
     position: absolute;
     top: 0;
@@ -217,12 +210,10 @@ header .header-container .mobile-menu-btn img {
     border-right: 3px solid #FFF;
   }
 
-  /* SmallTitle */
   .small-title {
     font-size: 1.5rem;
   }
 
-  /* BigTitle */
   .big-title {
     font-size: 2rem;
   }

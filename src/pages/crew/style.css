@@ -50,7 +50,6 @@
 /* --- MEDIA QUERIES --- */
 /* --- Tablet --- */
 @media screen and (max-width: 960px) {
-  /* CrewCard */
   .crew-card {
     flex-direction: column;
     justify-content: space-between;
@@ -75,7 +74,6 @@
 
 /* --- Mobile --- */
 @media screen and (max-width: 700px) {
-  /* CrewCard */
   .crew-card div {
     align-items: center;
     gap: 6rem;
