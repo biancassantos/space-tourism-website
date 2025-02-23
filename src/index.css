@@ -49,6 +49,23 @@ strong {
   margin: 0 auto;
 }
 
+/* --- Scrollbar --- */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #171a29;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--blue-900);
+}
+
 
 /* --- MEDIA QUERIES --- */
 /* --- Tablet --- */
