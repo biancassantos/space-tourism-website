@@ -16,10 +16,13 @@ Esse projeto é a resolução de um desafio do Frontend Mentor de um site para u
 
 ## 🔎 Especificações
 ### Tecnologias:
-- HTML
-- CSS
+- React
 - TypeScript
-- React (React Router, Context API)
+- CSS
+- JSX
+
+### Dependências
+- React Router
 
 </br>
 
